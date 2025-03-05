@@ -1,0 +1,57 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Urlil",
+    "collectionId": "c94f9735-8cc7-457c-90e3-77a9e8298af5",
+    "dateExported": "2025-03-05T07:58:46.981Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ddfaf123-7c29-45d2-a639-961f6926306f",
+            "colId": "c94f9735-8cc7-457c-90e3-77a9e8298af5",
+            "containerId": "",
+            "name": "Get All",
+            "url": "localhost:3001/url/getall",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2025-03-05T06:40:15.370Z",
+            "modified": "2025-03-05T07:55:34.245Z",
+            "headers": []
+        },
+        {
+            "_id": "71cc9e0c-a5ce-48e7-881e-724972eae0e2",
+            "colId": "c94f9735-8cc7-457c-90e3-77a9e8298af5",
+            "containerId": "",
+            "name": "Generate Short URL",
+            "url": "localhost:3001/url/generate",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-03-05T06:39:30.145Z",
+            "modified": "2025-03-05T07:57:44.750Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"url\":\"google.com\",\n  \"shorturl\": \"wow21ws\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "fbda93b7-0a41-4e95-99fe-68ab9e6c2d02",
+            "colId": "c94f9735-8cc7-457c-90e3-77a9e8298af5",
+            "containerId": "",
+            "name": "Get Url by Short URL",
+            "url": "localhost:3001/url/get/wow",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-03-05T07:16:50.545Z",
+            "modified": "2025-03-05T07:55:55.519Z",
+            "headers": []
+        }
+    ],
+    "ref": "UMfQ1zgicJuOa_WUmuPqDkrmifUG9Ue_g-ZF-_BB6G3kwR2juBhrIqwh9HWRn6s_BIemFJB2Q4yGLlIBYmrBbw"
+}
