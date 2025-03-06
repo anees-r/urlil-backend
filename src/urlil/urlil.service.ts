@@ -21,7 +21,7 @@ export class UrlilService {
       return {
         "http_status": "BAD REQUEST",
         "http_code": "400",
-        "message": "Invalid Email format!",
+        "message": "Invalid URL format!",
         "data": "",
       }
     }
